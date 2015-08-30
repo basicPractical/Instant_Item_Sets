@@ -1,0 +1,29 @@
+.ninja {display:none;}
+
+#foundChampsList{
+	width: 75px;
+}
+
+
+#header{
+  font-size:175%;
+  font-weight:700;
+  text-align:center;
+  margin-right:60%;
+
+}
+
+.bordered {
+	
+  border: 1px solid black;
+  border-radius: 15px;
+  padding:10px;
+  width:685px;
+  margin:10px;
+  background-image: url("bgtexture.png");
+}
+
+.messenger{
+	font-weight: 900;
+}
+

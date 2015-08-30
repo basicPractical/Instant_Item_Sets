@@ -1,0 +1,39 @@
+<html>
+<head>
+	
+	<script src="lib/jquery-2.1.4.min.js"></script>	
+	<script src="lib/apiLibTest.js"></script>
+	<script src="lib/FileSaver.min.js"></script>
+	<script src="lib/jQuery.ajaxRetry.min.js"></script>
+
+
+	<link rel="stylesheet" type="text/css" href="lib/itemSets.css" /> 
+ 
+ <title>Instant Item Sets</title>
+
+</head>
+
+<body>
+
+<br><br>
+
+<div id="header"> Instant Item Set </div>
+<div class="bordered">
+
+	Summoner Name:<input id="playerName" size="10" type="text"  value="devHourrr">
+    
+  Champion:<select id="foundChampsList" >
+    <!--  <option >a champion</option>  --> 
+  </select>
+ <button id="getData"> Load Matches </button>
+ <button id="checkItems" disabled> Build Item Set </button>
+ <button id="saveFile" disabled> Save Item Set </button> 
+ 
+ <br>
+ <span id="copyFileStatus" class="messenger"></span> 
+ </div>
+
+  <input type="text" id="filePath" class="ninja" size="58" value="">   
+    
+</body>
+</html>
